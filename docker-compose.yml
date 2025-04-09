@@ -1,0 +1,48 @@
+version: "3"
+services:
+    osrm:
+        container_name: osrm
+        image: ghcr.io/project-osrm/osrm-backend:v5.27.1
+        restart: always
+        ports:
+            - "5000:5000"
+        volumes:
+            - ./data/osrm:/data
+        command: "osrm-routed --max-table-size=16000 --max-viaroute-size 2000 --threads=6 --verbosity=WARNING --algorithm=CH /data/cayman_islands-latest.osrm"
+        networks:
+          route-planner-net:
+            aliases:
+                - osrm
+    vroom-backend:
+        container_name: vroom-backend
+        image: ghcr.io/vroom-project/vroom-docker:v1.14.0
+        restart: always
+        ports:
+            - "3000:3000"
+        volumes:
+            - ./data/vroom-conf:/conf
+        environment:
+            - VROOM_ROUTER=osrm
+            - VROOM_LOG=/tmp
+            - osrm
+        networks:
+          route-planner-net:
+            aliases:
+                - vroom-backend
+    vroom-frontend:
+        container_name: vroom-frontend
+        image: iedmrc/vroom-frontend
+        restart: always
+        ports:
+            - "9966:9966"
+        depends_on:
+            - osrm
+            - vroom-backend
+        networks:
+          route-planner-net:
+            aliases:
+                - vroom-frontend
+
+networks:
+  route-planner-net:
+    driver: bridge
