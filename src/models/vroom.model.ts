@@ -2,11 +2,21 @@ export interface VroomRequest {
   vehicles: Vehicle[];
   jobs: Job[];
   shipments: Shipment[];
+  options?: VroomOptions;
+}
+
+export interface VroomOptions {
+  g: boolean;
+  c: boolean;
+  t: number;
+  x: number;
+  l: number;
 }
 
 export interface Vehicle {
   id: number;
   description?: string;
+  profile?: string;
   start?: [number, number];
   end?: [number, number];
   capacity?: number[];

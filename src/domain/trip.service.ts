@@ -7,7 +7,9 @@ import { VroomService } from './vroom.service';
 export class TripService {
   private readonly vroomService: VroomService;
   constructor() {
-    this.vroomService = new VroomService('http://localhost:3000');
+    this.vroomService = new VroomService(
+      process.env.VROOM_URL || 'http://localhost:3000',
+    );
   }
   async createTrip(context: TripContext, orders: Order[], drivers: Driver[]) {
     const vroomRequest: VroomRequest = {
@@ -40,6 +42,7 @@ export class TripService {
       const vehicle = {
         id: driverCount,
         description: `${driver.name} - ${driver.id}`,
+        // profile: 'driving-car',
         start: driver.currentLocation,
         // capacity: [1],
         // skills: [],
