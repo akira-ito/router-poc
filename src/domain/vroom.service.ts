@@ -1,4 +1,5 @@
 import axios from 'axios';
+import { VroomResponse } from '../models/vroom-response.model';
 import { VroomRequest } from '../models/vroom.model';
 
 export class VroomService {
@@ -8,9 +9,9 @@ export class VroomService {
     this.vroomUrl = vroomUrl;
   }
 
-  async createTrip(request: VroomRequest) {
+  async createTrip(request: VroomRequest): Promise<VroomResponse> {
     const response = await axios.post(this.vroomUrl, request);
 
-    console.log('Vroom API Response:', response.data);
+    return response.data as VroomResponse;
   }
 }

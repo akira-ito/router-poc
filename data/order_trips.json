@@ -1,0 +1,1548 @@
+{
+  "context": {
+    "currentTime": "2025-04-05T00:25:33Z",
+    "maxDeliveryMinutes": 80,
+    "maxTripsPerDriver": 6
+  },
+  "orders": [
+    {
+      "acceptedAt": "2025-04-05T00:21:37.429Z",
+      "createdAt": "2025-04-05T00:21:08.445Z",
+      "currentAssignedDriver": null,
+      "dropoffLocation": [19.283815700444887, -81.38021640479565],
+      "lastStatus": "in_progress",
+      "orderId": "CNG2466070",
+      "pickupLocation": [19.29458780250032, -81.3801929],
+      "readyAround": "2025-04-05T00:31:37.429Z",
+      "readyAt": null
+    },
+    {
+      "acceptedAt": "2025-04-05T00:20:55.427Z",
+      "createdAt": "2025-04-05T00:20:41.559Z",
+      "currentAssignedDriver": null,
+      "dropoffLocation": [19.26577175887656, -81.27976030111311],
+      "lastStatus": "in_progress",
+      "orderId": "LRB2436773",
+      "pickupLocation": [19.2816494, -81.34628459999999],
+      "readyAround": "2025-04-05T00:30:55.427Z",
+      "readyAt": null
+    },
+    {
+      "acceptedAt": "2025-04-05T00:22:39.382Z",
+      "createdAt": "2025-04-05T00:20:33.427Z",
+      "currentAssignedDriver": null,
+      "dropoffLocation": [19.28764393541729, -81.38653468340635],
+      "lastStatus": "in_progress",
+      "orderId": "CNO2430174",
+      "pickupLocation": [19.298486, -81.382139],
+      "readyAround": "2025-04-05T00:32:39.382Z",
+      "readyAt": null
+    },
+    {
+      "acceptedAt": "2025-04-05T00:21:35.306Z",
+      "createdAt": "2025-04-05T00:20:31.179Z",
+      "currentAssignedDriver": null,
+      "dropoffLocation": [19.281496626919232, -81.37350954115391],
+      "lastStatus": "in_progress",
+      "orderId": "LAT2428601",
+      "pickupLocation": [19.2960031, -81.3780135],
+      "readyAround": "2025-04-05T00:31:35.306Z",
+      "readyAt": null
+    },
+    {
+      "acceptedAt": "2025-04-05T00:22:08.429Z",
+      "createdAt": "2025-04-05T00:20:30.257Z",
+      "currentAssignedDriver": null,
+      "dropoffLocation": [19.382688133731772, -81.41402196139097],
+      "lastStatus": "in_progress",
+      "orderId": "PAR2425356",
+      "pickupLocation": [19.32799501774203, -81.38174784166412],
+      "readyAround": "2025-04-05T00:32:08.429Z",
+      "readyAt": null
+    },
+    {
+      "acceptedAt": "2025-04-05T00:21:04.724Z",
+      "createdAt": "2025-04-05T00:19:50.613Z",
+      "currentAssignedDriver": null,
+      "dropoffLocation": [19.38044004494041, -81.38492669910192],
+      "lastStatus": "in_progress",
+      "orderId": "BEL2388743",
+      "pickupLocation": [19.368905206809742, -81.39707936011048],
+      "readyAround": "2025-04-05T00:31:04.724Z",
+      "readyAt": null
+    },
+    {
+      "acceptedAt": "2025-04-05T00:21:29.444Z",
+      "createdAt": "2025-04-05T00:19:30.496Z",
+      "currentAssignedDriver": null,
+      "dropoffLocation": [19.277103652135352, -81.37451536953449],
+      "lastStatus": "in_progress",
+      "orderId": "PAR2366120",
+      "pickupLocation": [19.32799501774203, -81.38174784166412],
+      "readyAround": "2025-04-05T00:31:29.444Z",
+      "readyAt": null
+    },
+    {
+      "acceptedAt": "2025-04-05T00:18:47.006Z",
+      "createdAt": "2025-04-05T00:18:32.306Z",
+      "currentAssignedDriver": null,
+      "dropoffLocation": [19.288057861719473, -81.36114958673716],
+      "lastStatus": "in_progress",
+      "orderId": "KZK2309964",
+      "pickupLocation": [19.29391963156569, -81.3708965],
+      "readyAround": "2025-04-05T00:28:47.006Z",
+      "readyAt": null
+    },
+    {
+      "acceptedAt": "2025-04-05T00:17:20.623Z",
+      "createdAt": "2025-04-05T00:17:10.449Z",
+      "currentAssignedDriver": null,
+      "dropoffLocation": [19.2854436, -81.3746991],
+      "lastStatus": "in_progress",
+      "orderId": "THA2222966",
+      "pickupLocation": [19.294563, -81.38044],
+      "readyAround": "2025-04-05T00:27:20.623Z",
+      "readyAt": null
+    },
+    {
+      "acceptedAt": "2025-04-05T00:16:18.405Z",
+      "createdAt": "2025-04-05T00:14:29.479Z",
+      "currentAssignedDriver": null,
+      "dropoffLocation": [19.282690662736172, -81.30393505096434],
+      "lastStatus": "in_progress",
+      "orderId": "LAT2064829",
+      "pickupLocation": [19.2960031, -81.3780135],
+      "readyAround": "2025-04-05T00:26:18.405Z",
+      "readyAt": null
+    },
+    {
+      "acceptedAt": "2025-04-05T00:16:05.751Z",
+      "createdAt": "2025-04-05T00:13:57.444Z",
+      "currentAssignedDriver": null,
+      "dropoffLocation": [19.288210077474144, -81.34366124868393],
+      "lastStatus": "in_progress",
+      "orderId": "AGA2035689",
+      "pickupLocation": [19.2994081, -81.3709635],
+      "readyAround": "2025-04-05T00:26:05.751Z",
+      "readyAt": null
+    },
+    {
+      "acceptedAt": "2025-04-05T00:14:37.655Z",
+      "createdAt": "2025-04-05T00:13:46.497Z",
+      "currentAssignedDriver": null,
+      "dropoffLocation": [19.28989836538782, -81.3801322504878],
+      "lastStatus": "in_progress",
+      "orderId": "CWO2024486",
+      "pickupLocation": [19.29440458490353, -81.38108879373169],
+      "readyAround": "2025-04-05T00:24:37.655Z",
+      "readyAt": null
+    },
+    {
+      "acceptedAt": "2025-04-05T00:14:22.847Z",
+      "createdAt": "2025-04-05T00:13:28.455Z",
+      "currentAssignedDriver": null,
+      "dropoffLocation": [19.2760314205348, -81.37638319283724],
+      "lastStatus": "in_progress",
+      "orderId": "CAB2006530",
+      "pickupLocation": [19.29844161698658, -81.38222522030593],
+      "readyAround": "2025-04-05T00:24:22.847Z",
+      "readyAt": null
+    },
+    {
+      "acceptedAt": "2025-04-05T00:21:42.268Z",
+      "createdAt": "2025-04-05T00:13:13.754Z",
+      "currentAssignedDriver": null,
+      "dropoffLocation": [19.28963127844984, -81.32511645555496],
+      "lastStatus": "in_progress",
+      "orderId": "GIN1992118",
+      "pickupLocation": [19.3310002, -81.3805658],
+      "readyAround": "2025-04-05T00:31:42.268Z",
+      "readyAt": null
+    }
+  ],
+  "drivers": [
+    {
+      "currentLocation": [19.3264791, -81.3806583],
+      "id": "3Z8oWRTievQGwHnxY9Cf",
+      "name": "Roger Moore",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.384106614982606, -81.4089435338974],
+          "orderId": "BBZ2072534",
+          "pickupLocation": [19.32162324124974, -81.37738193914795],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.326693334144135, -81.37150324881077],
+          "orderId": "UNI1936039",
+          "pickupLocation": [19.321894126753058, -81.37726737356425],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.345392986530065, -81.38207282871008],
+          "orderId": "CHI2456328",
+          "pickupLocation": [19.3209307, -81.3814757],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.37819287396699, -81.3878620415926],
+          "orderId": "RAG2440055",
+          "pickupLocation": [19.3268052, -81.3808943],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2782044, -81.358183],
+      "id": "ANKtoaRhmGPxGLTbCopD",
+      "name": "Ramil Cayanong",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-04T23:54:04.260Z",
+          "arrivingAtMerchant": "2025-04-04T23:54:03.664Z",
+          "dropoffLocation": [19.278415765436655, -81.35839026421309],
+          "orderId": "TSF8980602",
+          "pickupLocation": [19.299374540949835, -81.36911073558197],
+          "status": "started"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.377794041368464, -81.40367601066828],
+          "orderId": "SIN1839876",
+          "pickupLocation": [19.2956079, -81.378929],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.30858889980735, -81.37861426364837],
+          "orderId": "THA1903735",
+          "pickupLocation": [19.294563, -81.38044],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.3069220431551, -81.3795555755496],
+          "orderId": "THA1970970",
+          "pickupLocation": [19.294563, -81.38044],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3761936, -81.3985269],
+      "id": "BOfaKTaqxZWcObPGvuqY",
+      "name": "Julissa Williams",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.27920568675535, -81.32084839046001],
+          "orderId": "SLK0945876",
+          "pickupLocation": [19.331870617004473, -81.38099683995054],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.279337339938127, -81.36305395513773],
+          "orderId": "TOR1259260",
+          "pickupLocation": [19.31090596993272, -81.3844696349182],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.2890774, -81.3859469],
+          "orderId": "TOR1417468",
+          "pickupLocation": [19.31090596993272, -81.3844696349182],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3124084, -81.3853974],
+      "id": "CyANmKAjtJSnqrwVgNCM",
+      "name": "Tanesha Woolery",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:04:05.757Z",
+          "arrivingAtMerchant": "2025-04-05T00:03:06.963Z",
+          "dropoffLocation": [19.27968229609305, -81.38793345540762],
+          "orderId": "GIN8783292",
+          "pickupLocation": [19.3310002, -81.3805658],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-04T23:52:06.066Z",
+          "arrivingAtMerchant": "2025-04-04T23:51:05.160Z",
+          "dropoffLocation": [19.309953007397244, -81.38550471514463],
+          "orderId": "DSP8735578",
+          "pickupLocation": [19.3404004, -81.3790606],
+          "status": "started"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2913385, -81.3723169],
+      "id": "DNIwtOwsbWSeqstKuQNO",
+      "name": "Karrieme Wright",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-04T23:56:06.860Z",
+          "arrivingAtMerchant": "2025-04-04T23:56:06.486Z",
+          "dropoffLocation": [19.287486655806386, -81.3549117743969],
+          "orderId": "KZK9471972",
+          "pickupLocation": [19.29391963156569, -81.3708965],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:03:09.068Z",
+          "arrivingAtMerchant": "2025-04-05T00:02:12.082Z",
+          "dropoffLocation": [19.291142339211916, -81.29626795649529],
+          "orderId": "CSM0850691",
+          "pickupLocation": [19.297048036965897, -81.3669171116394],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:19:08.863Z",
+          "arrivingAtMerchant": "2025-04-05T00:15:09.663Z",
+          "dropoffLocation": [19.291763847904143, -81.34576912969351],
+          "orderId": "MKG1028995",
+          "pickupLocation": [19.288307562479716, -81.37345388530437],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:15:11.057Z",
+          "arrivingAtMerchant": "2025-04-05T00:15:09.361Z",
+          "dropoffLocation": [19.2817839811527, -81.33033066987991],
+          "orderId": "PIC1024381",
+          "pickupLocation": [19.2909097, -81.37290469999999],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2955517, -81.3789133],
+      "id": "ENTjTCRDNPNxijhYAeMf",
+      "name": "Francine Whyte",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:02:13.756Z",
+          "arrivingAtMerchant": "2025-04-05T00:01:15.164Z",
+          "dropoffLocation": [19.267674546257364, -81.38408817350864],
+          "orderId": "SIN0564834",
+          "pickupLocation": [19.2956079, -81.378929],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:02:13.656Z",
+          "arrivingAtMerchant": "2025-04-05T00:01:14.769Z",
+          "dropoffLocation": [19.27580671939852, -81.32386319339275],
+          "orderId": "MAC0555744",
+          "pickupLocation": [19.295082343245973, -81.37986627976228],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:25:10.663Z",
+          "arrivingAtMerchant": "2025-04-05T00:25:07.957Z",
+          "dropoffLocation": [19.272743474158037, -81.32814198732376],
+          "orderId": "MAC2389783",
+          "pickupLocation": [19.295082343245973, -81.37986627976228],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.278710404002172, -81.39166809618473],
+          "orderId": "SIN9321460",
+          "pickupLocation": [19.2956079, -81.378929],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3244466, -81.3817331],
+      "id": "GVQrqvSGjIdzMO2V4UYl",
+      "name": "Jade Betaizar",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": "2025-04-05T00:16:05.559Z",
+          "dropoffLocation": [19.38522462884436, -81.39693293720485],
+          "orderId": "GIN0995087",
+          "pickupLocation": [19.3310002, -81.3805658],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:15:11.264Z",
+          "arrivingAtMerchant": "2025-04-05T00:14:11.753Z",
+          "dropoffLocation": [19.37330655384361, -81.41707632690668],
+          "orderId": "RAG1370278",
+          "pickupLocation": [19.3268052, -81.3808943],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:22:10.656Z",
+          "arrivingAtMerchant": "2025-04-05T00:09:07.167Z",
+          "dropoffLocation": [19.379289737647987, -81.39409750699998],
+          "orderId": "CIM1318059",
+          "pickupLocation": [19.31909, -81.38176380000002],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.382622981341868, -81.38661917299032],
+          "orderId": "DSP1457648",
+          "pickupLocation": [19.3404004, -81.3790606],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2878173, -81.3727712],
+      "id": "IEFcltwNnEelicZdEhzc",
+      "name": "Rajiv Edwards",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:07:13.458Z",
+          "arrivingAtMerchant": "2025-04-05T00:06:09.259Z",
+          "dropoffLocation": [19.287579694467706, -81.3645851612091],
+          "orderId": "LAT0667741",
+          "pickupLocation": [19.2960031, -81.3780135],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:15:11.161Z",
+          "arrivingAtMerchant": "2025-04-05T00:15:09.471Z",
+          "dropoffLocation": [19.285124278886176, -81.35983563959599],
+          "orderId": "KZK0659087",
+          "pickupLocation": [19.29391963156569, -81.3708965],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": "2025-04-05T00:25:08.060Z",
+          "dropoffLocation": [19.283391320039836, -81.34604606777428],
+          "orderId": "TRO0855986",
+          "pickupLocation": [19.287509566955812, -81.3722974325409],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": "2025-04-05T00:25:07.964Z",
+          "dropoffLocation": [19.280411765202455, -81.3466053083539],
+          "orderId": "TRO1668740",
+          "pickupLocation": [19.287509566955812, -81.3722974325409],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3107984, -81.3843446],
+      "id": "IEUTYHVVuTByqthpoxZl",
+      "name": "Nickroy Henry",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:05:09.062Z",
+          "arrivingAtMerchant": "2025-04-05T00:05:07.970Z",
+          "dropoffLocation": [19.279875661106164, -81.3429618626833],
+          "orderId": "TOR0678548",
+          "pickupLocation": [19.31090596993272, -81.3844696349182],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:05:09.857Z",
+          "arrivingAtMerchant": "2025-04-05T00:05:08.256Z",
+          "dropoffLocation": [19.28015795462707, -81.39233496040107],
+          "orderId": "TOR0813265",
+          "pickupLocation": [19.31090596993272, -81.3844696349182],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:05:09.260Z",
+          "arrivingAtMerchant": "2025-04-05T00:05:08.271Z",
+          "dropoffLocation": [19.275661138216133, -81.31029188632965],
+          "orderId": "KIT1081492",
+          "pickupLocation": [19.311678540679868, -81.38448617370805],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:05:09.071Z",
+          "arrivingAtMerchant": "2025-04-05T00:05:08.271Z",
+          "dropoffLocation": [19.26918454361009, -81.38237189501524],
+          "orderId": "TOR1172650",
+          "pickupLocation": [19.31090596993272, -81.3844696349182],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2947343, -81.37982],
+      "id": "JcvuJjvDGnekbGsMwhXF",
+      "name": "Bobby Alberto",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:25:10.367Z",
+          "arrivingAtMerchant": "2025-04-05T00:24:09.262Z",
+          "dropoffLocation": [19.386276851568756, -81.38561334460974],
+          "orderId": "MAC1223085",
+          "pickupLocation": [19.295082343245973, -81.37986627976228],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.385378019114825, -81.39510937035084],
+          "orderId": "BMA1223198",
+          "pickupLocation": [19.29967290919337, -81.37606273668395],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.39421811482212, -81.39057207852602],
+          "orderId": "SSP1241330",
+          "pickupLocation": [19.3073221, -81.3837027],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.389332908049195, -81.40333302319051],
+          "orderId": "CNO1353816",
+          "pickupLocation": [19.298486, -81.382139],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2746425, -81.3160432],
+      "id": "KaHDoPYQrznHEWjUOrjh",
+      "name": "Vignesh Varadharajan",
+      "status": "arriving",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-04T23:14:09.659Z",
+          "arrivingAtMerchant": "2025-04-04T23:14:07.265Z",
+          "dropoffLocation": [19.274933546846164, -81.3160153850913],
+          "orderId": "SLK7928926",
+          "pickupLocation": [19.331870617004473, -81.38099683995054],
+          "status": "started"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3182225, -81.382686],
+      "id": "KioezbkqSRdzWFMUSSWk",
+      "name": "Shannoneil Simpson",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:10:10.058Z",
+          "arrivingAtMerchant": "2025-04-05T00:09:07.051Z",
+          "dropoffLocation": [19.390768725602417, -81.38385951519012],
+          "orderId": "PLA0708857",
+          "pickupLocation": [19.2975609, -81.37923219999999],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:08:10.363Z",
+          "arrivingAtMerchant": "2025-04-05T00:08:09.260Z",
+          "dropoffLocation": [19.38626167076625, -81.38562642037868],
+          "orderId": "MAC0690542",
+          "pickupLocation": [19.295082343245973, -81.37986627976228],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:22:10.466Z",
+          "arrivingAtMerchant": "2025-04-05T00:22:09.150Z",
+          "dropoffLocation": [19.360004988249134, -81.37851890176535],
+          "orderId": "THE0892297",
+          "pickupLocation": [19.312242, -81.3844709],
+          "status": "started"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3313385, -81.380877],
+      "id": "L1G8bF6hBYUiDCV2zbcA",
+      "name": "Michelle Bandal",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.376512456892307, -81.40029575675726],
+          "orderId": "RAG1893667",
+          "pickupLocation": [19.3268052, -81.3808943],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": "2025-04-05T00:23:06.453Z",
+          "dropoffLocation": [19.380252175676457, -81.38697355985641],
+          "orderId": "PAR1785703",
+          "pickupLocation": [19.32799501774203, -81.38174784166412],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:23:07.758Z",
+          "arrivingAtMerchant": "2025-04-05T00:23:06.570Z",
+          "dropoffLocation": [19.382353515840773, -81.40075206756592],
+          "orderId": "SAN2308470",
+          "pickupLocation": [19.33127637659601, -81.38102673372956],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.37249684459543, -81.41725804656744],
+          "orderId": "RAG2275592",
+          "pickupLocation": [19.3268052, -81.3808943],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2935731, -81.3715868],
+      "id": "NTvxkvxuJoUJyZbcJgIU",
+      "name": "Raymond Cayanong",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.279418040755065, -81.37705374509096],
+          "orderId": "THA1419642",
+          "pickupLocation": [19.294563, -81.38044],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.283952729826247, -81.35171558707952],
+          "orderId": "THA1570682",
+          "pickupLocation": [19.294563, -81.38044],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.283805890022876, -81.34692080318928],
+          "orderId": "THA1582032",
+          "pickupLocation": [19.294563, -81.38044],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.284327740364475, -81.33462354540825],
+          "orderId": "CWO1389091",
+          "pickupLocation": [19.29440458490353, -81.38108879373169],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.27635454655814, -81.30649387836455],
+          "orderId": "CNG1546692",
+          "pickupLocation": [19.29458780250032, -81.3801929],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3312534, -81.3805969],
+      "id": "OSSJuzrRHyjBlpdEzSWA",
+      "name": "Sanjay Bhandari",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:20:10.761Z",
+          "arrivingAtMerchant": "2025-04-05T00:20:09.177Z",
+          "dropoffLocation": [19.33153011462902, -81.37604221701622],
+          "orderId": "SAN1343201",
+          "pickupLocation": [19.33127637659601, -81.38102673372956],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": "2025-04-05T00:21:06.460Z",
+          "dropoffLocation": [19.330231082341943, -81.37739170342682],
+          "orderId": "PAR1999297",
+          "pickupLocation": [19.32799501774203, -81.38174784166412],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": "2025-04-05T00:21:06.276Z",
+          "dropoffLocation": [19.293651460396198, -81.34238049387932],
+          "orderId": "PAR1963369",
+          "pickupLocation": [19.32799501774203, -81.38174784166412],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2725744, -81.2982208],
+      "id": "OUeUGvyeYeYiUzEjSMfx",
+      "name": "Anjit Shrestha",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-04T23:59:11.266Z",
+          "arrivingAtMerchant": "2025-04-04T23:58:06.677Z",
+          "dropoffLocation": [19.276485885552937, -81.30814477801323],
+          "orderId": "DRA0666678",
+          "pickupLocation": [19.2723963, -81.2982297],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:02:13.460Z",
+          "arrivingAtMerchant": "2025-04-05T00:02:12.352Z",
+          "dropoffLocation": [19.290541397555288, -81.35720707476139],
+          "orderId": "SSA1270166",
+          "pickupLocation": [19.2729332, -81.2978847],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:23:08.059Z",
+          "arrivingAtMerchant": "2025-04-05T00:23:06.465Z",
+          "dropoffLocation": [19.278101821290647, -81.31138756871223],
+          "orderId": "CCS2361013",
+          "pickupLocation": [19.272997130158174, -81.29700450793652],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:25:10.954Z",
+          "arrivingAtMerchant": "2025-04-05T00:25:08.461Z",
+          "dropoffLocation": [19.27912656820519, -81.30872916430235],
+          "orderId": "CCS2328110",
+          "pickupLocation": [19.272997130158174, -81.29700450793652],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3075709, -81.3840034],
+      "id": "PAbpZQTwozKVnKHR5NU4",
+      "name": "Himal Khadka",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:17:12.568Z",
+          "arrivingAtMerchant": "2025-04-05T00:17:11.157Z",
+          "dropoffLocation": [19.269147513868653, -81.38483081012966],
+          "orderId": "THE1289997",
+          "pickupLocation": [19.312242, -81.3844709],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:17:12.259Z",
+          "arrivingAtMerchant": "2025-04-05T00:17:11.066Z",
+          "dropoffLocation": [19.295222924701335, -81.38323187828064],
+          "orderId": "XQS1405699",
+          "pickupLocation": [19.3129542, -81.3842627],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:06:10.452Z",
+          "arrivingAtMerchant": "2025-04-05T00:06:09.164Z",
+          "dropoffLocation": [19.278381902538566, -81.35696969926357],
+          "orderId": "CNO1076913",
+          "pickupLocation": [19.298486, -81.382139],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:16:10.756Z",
+          "arrivingAtMerchant": "2025-04-05T00:16:05.578Z",
+          "dropoffLocation": [19.28718538739742, -81.34353317320347],
+          "orderId": "SSP1505924",
+          "pickupLocation": [19.3073221, -81.3837027],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:17:12.056Z",
+          "arrivingAtMerchant": "2025-04-05T00:17:11.057Z",
+          "dropoffLocation": [19.27037107337452, -81.389126367867],
+          "orderId": "FID1693481",
+          "pickupLocation": [19.3116429, -81.3841905],
+          "status": "collected"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3406665, -81.3781827],
+      "id": "PEuqrlSVtINRqnvyCyzB",
+      "name": "Chelsea Green",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:25:10.153Z",
+          "arrivingAtMerchant": "2025-04-05T00:25:08.267Z",
+          "dropoffLocation": [19.273298907212954, -81.38887222856283],
+          "orderId": "DSP1716708",
+          "pickupLocation": [19.3404004, -81.3790606],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:21:07.956Z",
+          "arrivingAtMerchant": "2025-04-05T00:21:06.781Z",
+          "dropoffLocation": [19.298116455426566, -81.38195313513279],
+          "orderId": "ING1556480",
+          "pickupLocation": [19.345058, -81.38107649999999],
+          "status": "collected"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3284104, -81.3814848],
+      "id": "R7GA9P8K1PvzAXfLmCAd",
+      "name": "Milan Shrestha",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:10:10.169Z",
+          "arrivingAtMerchant": "2025-04-05T00:10:09.292Z",
+          "dropoffLocation": [19.276281123266962, -81.36313073337078],
+          "orderId": "PAR0662493",
+          "pickupLocation": [19.32799501774203, -81.38174784166412],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:10:09.660Z",
+          "arrivingAtMerchant": "2025-04-05T00:10:08.656Z",
+          "dropoffLocation": [19.28299162294796, -81.34714543819427],
+          "orderId": "PAR0670607",
+          "pickupLocation": [19.32799501774203, -81.38174784166412],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:10:09.953Z",
+          "arrivingAtMerchant": "2025-04-05T00:10:08.359Z",
+          "dropoffLocation": [19.276001038427356, -81.3242806121707],
+          "orderId": "RAG0924631",
+          "pickupLocation": [19.3268052, -81.3808943],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3312932, -81.3806558],
+      "id": "SuoBqVDhUyLBJuZIHzYv",
+      "name": "Reymark Angeles",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:05:09.168Z",
+          "arrivingAtMerchant": "2025-04-05T00:05:08.364Z",
+          "dropoffLocation": [19.285646125026275, -81.35921001434326],
+          "orderId": "MSC0568678",
+          "pickupLocation": [19.344884299692133, -81.3811425932541],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.279303160756623, -81.3777494430542],
+          "orderId": "GEL0665201",
+          "pickupLocation": [19.3226373, -81.37690219999999],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:15:11.368Z",
+          "arrivingAtMerchant": "2025-04-05T00:15:09.366Z",
+          "dropoffLocation": [19.275523468935518, -81.38057515025139],
+          "orderId": "SAN0825493",
+          "pickupLocation": [19.33127637659601, -81.38102673372956],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2696592, -81.2945265],
+      "id": "TNeDuulGWDwhBdzooYtZ",
+      "name": "Terrine Walker",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.26948521214106, -81.29394449293613],
+          "orderId": "TBA9451525",
+          "pickupLocation": [19.2665181, -81.2910442],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2997148, -81.3821245],
+      "id": "VSQOaHuKDnfqEGmcejhy",
+      "name": "Tamita  Wright",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:03:09.363Z",
+          "arrivingAtMerchant": "2025-04-05T00:03:07.965Z",
+          "dropoffLocation": [19.27323117929451, -81.37448217719792],
+          "orderId": "TAC9649008",
+          "pickupLocation": [19.327207135714108, -81.38088058703308],
+          "status": "started"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.28890311623133, -81.35185774415731],
+          "orderId": "FLA1472785",
+          "pickupLocation": [19.28967121238573, -81.3648338010498],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.280914005169404, -81.26980226486921],
+          "orderId": "FLA1532516",
+          "pickupLocation": [19.28967121238573, -81.3648338010498],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3235056, -81.3775214],
+      "id": "VnRdpoAVknIGXPvznspO",
+      "name": "Shadene Smith",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:18:08.761Z",
+          "arrivingAtMerchant": "2025-04-05T00:17:11.262Z",
+          "dropoffLocation": [19.37113076741168, -81.39949277043343],
+          "orderId": "CHI1354268",
+          "pickupLocation": [19.3209307, -81.3814757],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": "2025-04-05T00:25:08.373Z",
+          "dropoffLocation": [19.371408791457355, -81.41587134450674],
+          "orderId": "GEL0654721",
+          "pickupLocation": [19.3226373, -81.37690219999999],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:17:12.067Z",
+          "arrivingAtMerchant": "2025-04-05T00:16:07.761Z",
+          "dropoffLocation": [19.3292469, -81.3822474],
+          "orderId": "BSKAPI0655963",
+          "pickupLocation": [19.319135, -81.381412],
+          "status": "collected"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3263856, -81.3808431],
+      "id": "YQZMVxPVsjAAFYDzGaHq",
+      "name": "Marl John Patrick Blancaflor",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:22:10.956Z",
+          "arrivingAtMerchant": "2025-04-05T00:22:08.763Z",
+          "dropoffLocation": [19.27554783798902, -81.39088690280914],
+          "orderId": "RAG2263094",
+          "pickupLocation": [19.3268052, -81.3808943],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.287476116792135, -81.38945343254089],
+          "orderId": "SSP2081328",
+          "pickupLocation": [19.3073221, -81.3837027],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.26666460314428, -81.37975104153156],
+          "orderId": "SPA2443518",
+          "pickupLocation": [19.3318076, -81.380665],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.313716083800955, -81.38594258576632],
+          "orderId": "CIM2455587",
+          "pickupLocation": [19.31909, -81.38176380000002],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2873004, -81.3730816],
+      "id": "YUICuNdCSznPQfJUwDgX",
+      "name": "Javorn Ellis",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.35379889322784, -81.37829424178679],
+          "orderId": "TOR1411662",
+          "pickupLocation": [19.31090596993272, -81.3844696349182],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.34224816029314, -81.37751843780279],
+          "orderId": "XQS1928550",
+          "pickupLocation": [19.3129542, -81.3842627],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.343080164277147, -81.37926321476698],
+          "orderId": "RAG2095559",
+          "pickupLocation": [19.3268052, -81.3808943],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.335227522838103, -81.38059224933386],
+          "orderId": "SAN2015818",
+          "pickupLocation": [19.33127637659601, -81.38102673372956],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.343208286186826, -81.38043634593487],
+          "orderId": "THE1995750",
+          "pickupLocation": [19.312242, -81.3844709],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2947081, -81.380151],
+      "id": "aczZNkGIXwolXDzVUAEO",
+      "name": "Engelbert Bondoc",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-04T23:57:14.960Z",
+          "arrivingAtMerchant": "2025-04-04T23:57:13.158Z",
+          "dropoffLocation": [19.328118630037814, -81.37493379414082],
+          "orderId": "ALO8874006",
+          "pickupLocation": [19.282552174322156, -81.34702299206542],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.32958061319402, -81.37876600027084],
+          "orderId": "MSP1029848",
+          "pickupLocation": [19.31692975370957, -81.38414709206468],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:24:11.256Z",
+          "arrivingAtMerchant": "2025-04-05T00:24:09.755Z",
+          "dropoffLocation": [19.30833612042424, -81.37799251824617],
+          "orderId": "MAC1525878",
+          "pickupLocation": [19.295082343245973, -81.37986627976228],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2835619, -81.3478129],
+      "id": "bnXSZOSBgRnbIGvqjHYK",
+      "name": "Ricardo Robinson",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-04T23:52:06.157Z",
+          "arrivingAtMerchant": "2025-04-04T23:52:03.861Z",
+          "dropoffLocation": [19.286698040268107, -81.30193378776312],
+          "orderId": "PAN9324892",
+          "pickupLocation": [19.320626, -81.378166],
+          "status": "collected"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.271001, -81.3708818],
+      "id": "dPdZXIKdYBDtSKHyNSSx",
+      "name": "Emil Solas",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:01:15.877Z",
+          "arrivingAtMerchant": "2025-04-05T00:01:14.664Z",
+          "dropoffLocation": [19.271946875430483, -81.36937893927097],
+          "orderId": "SSP8889619",
+          "pickupLocation": [19.3073221, -81.3837027],
+          "status": "started"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.350026441128463, -81.37803442776203],
+          "orderId": "CNO2237275",
+          "pickupLocation": [19.298486, -81.382139],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.346415730057807, -81.37384314090014],
+          "orderId": "CAB1974574",
+          "pickupLocation": [19.29844161698658, -81.38222522030593],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3740316, -81.3819483],
+      "id": "gKfVNFGqhJnCYoYbDyJs",
+      "name": "Andre Grant",
+      "status": "online",
+      "trips": []
+    },
+    {
+      "currentLocation": [19.3114227, -81.384187],
+      "id": "gTdaFpeqStlZdLkOejtA",
+      "name": "Reynaldo Garcia",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:12:09.058Z",
+          "arrivingAtMerchant": "2025-04-04T23:59:10.271Z",
+          "dropoffLocation": [19.327297623155843, -81.37540686875582],
+          "orderId": "TSF0850103",
+          "pickupLocation": [19.299374540949835, -81.36911073558197],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:21:08.467Z",
+          "arrivingAtMerchant": "2025-04-05T00:21:06.453Z",
+          "dropoffLocation": [19.325897630805688, -81.37290302664042],
+          "orderId": "TOR0823299",
+          "pickupLocation": [19.31090596993272, -81.3844696349182],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2904791, -81.3776351],
+      "id": "geOBIhvHrNTJqTuKgaiw",
+      "name": "Johnson Monje",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-04T23:56:07.064Z",
+          "arrivingAtMerchant": "2025-04-04T23:55:12.159Z",
+          "dropoffLocation": [19.28041682875108, -81.37393768876791],
+          "orderId": "CNO9265058",
+          "pickupLocation": [19.298486, -81.382139],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-04T23:58:07.855Z",
+          "arrivingAtMerchant": "2025-04-04T23:58:06.265Z",
+          "dropoffLocation": [19.285554984037386, -81.37622896581888],
+          "orderId": "SDB0765999",
+          "pickupLocation": [19.2977543, -81.3826598],
+          "status": "started"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3833739, -81.4056418],
+      "id": "itusviCTYpSMhZniJJZL",
+      "name": "Kurt Pascua",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-04T23:47:07.752Z",
+          "arrivingAtMerchant": "2025-04-04T23:40:09.559Z",
+          "dropoffLocation": [19.384181254902458, -81.40845067799091],
+          "orderId": "SAN9596115",
+          "pickupLocation": [19.33127637659601, -81.38102673372956],
+          "status": "started"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-04T23:47:07.861Z",
+          "arrivingAtMerchant": "2025-04-04T23:40:09.153Z",
+          "dropoffLocation": [19.389960051943454, -81.38514999300243],
+          "orderId": "SAN9594926",
+          "pickupLocation": [19.33127637659601, -81.38102673372956],
+          "status": "collected"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2861785, -81.3337577],
+      "id": "jBUwhYZBmyoaidNvOyBW",
+      "name": "Jann Ico",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:02:13.378Z",
+          "arrivingAtMerchant": "2025-04-05T00:02:12.157Z",
+          "dropoffLocation": [19.285967649776396, -81.32982976734638],
+          "orderId": "THA0806891",
+          "pickupLocation": [19.294563, -81.38044],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:02:13.564Z",
+          "arrivingAtMerchant": "2025-04-05T00:02:12.456Z",
+          "dropoffLocation": [19.279159481526708, -81.32472652941942],
+          "orderId": "THA0825276",
+          "pickupLocation": [19.294563, -81.38044],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:02:13.355Z",
+          "arrivingAtMerchant": "2025-04-05T00:02:12.168Z",
+          "dropoffLocation": [19.285886635725632, -81.33378703147173],
+          "orderId": "THA1006364",
+          "pickupLocation": [19.294563, -81.38044],
+          "status": "started"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2809013, -81.3428383],
+      "id": "nDKDgwo5jJSiYsZVhnRs",
+      "name": "Etoye Barnes",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-04T23:33:10.651Z",
+          "arrivingAtMerchant": "2025-04-04T23:33:09.550Z",
+          "dropoffLocation": [19.283741014636792, -81.34356368333101],
+          "orderId": "CSA9233318",
+          "pickupLocation": [19.273088278132935, -81.29714934722223],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:24:11.367Z",
+          "arrivingAtMerchant": "2025-04-05T00:24:09.261Z",
+          "dropoffLocation": [19.289182229641817, -81.35552030056715],
+          "orderId": "LRB1296880",
+          "pickupLocation": [19.2816494, -81.34628459999999],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:25:10.067Z",
+          "arrivingAtMerchant": "2025-04-05T00:23:06.671Z",
+          "dropoffLocation": [19.28923729277546, -81.35556723922491],
+          "orderId": "BKR2111459",
+          "pickupLocation": [19.281020883933824, -81.34396286256559],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3004811, -81.3744077],
+      "id": "nQQROrKCZtQKmvDfpzlw",
+      "name": "Michael Teves",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:20:11.364Z",
+          "arrivingAtMerchant": "2025-04-05T00:20:09.454Z",
+          "dropoffLocation": [19.28515624161449, -81.37765992432833],
+          "orderId": "TOR9564744",
+          "pickupLocation": [19.31090596993272, -81.3844696349182],
+          "status": "started"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:11:06.953Z",
+          "arrivingAtMerchant": "2025-04-05T00:05:08.354Z",
+          "dropoffLocation": [19.276138074346555, -81.36375334113836],
+          "orderId": "RAG0707071",
+          "pickupLocation": [19.3268052, -81.3808943],
+          "status": "collected"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2888293, -81.3550097],
+      "id": "nutMLyLmgDEsiZGbtUoy",
+      "name": "Peter Edwards",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:07:12.759Z",
+          "arrivingAtMerchant": "2025-04-05T00:07:12.261Z",
+          "dropoffLocation": [19.328243283515746, -81.3762242719531],
+          "orderId": "BKR1163067",
+          "pickupLocation": [19.281020883933824, -81.34396286256559],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.330056126643886, -81.37330267578363],
+          "orderId": "TSF1516798",
+          "pickupLocation": [19.299374540949835, -81.36911073558197],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.33652018811682, -81.38060498982668],
+          "orderId": "CSM2447478",
+          "pickupLocation": [19.297048036965897, -81.3669171116394],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3280729, -81.3815189],
+      "id": "qqcEwayaYqPySzzQOubH",
+      "name": "Charles Ellington",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:01:16.263Z",
+          "arrivingAtMerchant": "2025-04-04T23:55:12.249Z",
+          "dropoffLocation": [19.33524745387822, -81.3805466517806],
+          "orderId": "PIC0683986",
+          "pickupLocation": [19.2909097, -81.37290469999999],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:06:10.255Z",
+          "arrivingAtMerchant": "2025-04-05T00:05:08.165Z",
+          "dropoffLocation": [19.37624456271325, -81.40858780592681],
+          "orderId": "CNO0628028",
+          "pickupLocation": [19.298486, -81.382139],
+          "status": "collected"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:16:10.965Z",
+          "arrivingAtMerchant": "2025-04-05T00:16:05.571Z",
+          "dropoffLocation": [19.36199619601698, -81.39023780822754],
+          "orderId": "PAR0568268",
+          "pickupLocation": [19.32799501774203, -81.38174784166412],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:16:10.856Z",
+          "arrivingAtMerchant": "2025-04-05T00:16:07.956Z",
+          "dropoffLocation": [19.361962034118907, -81.38829655945301],
+          "orderId": "RAG0762082",
+          "pickupLocation": [19.3268052, -81.3808943],
+          "status": "collected"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3683945, -81.3958617],
+      "id": "rFLqfrqVQrEQytPaBrMS",
+      "name": "Gopal Bariya",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.32775700786185, -81.38208590447903],
+          "orderId": "SPA1456802",
+          "pickupLocation": [19.3318076, -81.380665],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.3162030269756, -81.37551885098219],
+          "orderId": "SLK1660667",
+          "pickupLocation": [19.331870617004473, -81.38099683995054],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.28635278243046, -81.37423541396856],
+          "orderId": "SLK1846879",
+          "pickupLocation": [19.331870617004473, -81.38099683995054],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.287348680007227, -81.3661726936698],
+          "orderId": "HAG1998559",
+          "pickupLocation": [19.32258113360603, -81.37810790598309],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3779271, -81.4148514],
+      "id": "sWHHEvRkZpydADscYVJo",
+      "name": "John Michael Baloloy",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-04T23:55:14.670Z",
+          "arrivingAtMerchant": "2025-04-04T23:55:12.062Z",
+          "dropoffLocation": [19.37772793817096, -81.41480818390846],
+          "orderId": "WOK9247990",
+          "pickupLocation": [19.3257103, -81.3813232],
+          "status": "started"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.38372013146059, -81.38896074146032],
+          "orderId": "SWB1791516",
+          "pickupLocation": [19.369296260794844, -81.4004842054184],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.351388582791248, -81.38301830738783],
+          "orderId": "BEL1932535",
+          "pickupLocation": [19.368905206809742, -81.39707936011048],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.2830293, -81.3471847],
+      "id": "uBvmlzTacbsbdxeGIzzD",
+      "name": "Landon Lewis",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-05T00:19:08.370Z",
+          "arrivingAtMerchant": "2025-04-05T00:19:07.263Z",
+          "dropoffLocation": [19.370795176890827, -81.39160271733998],
+          "orderId": "LRB1630258",
+          "pickupLocation": [19.2816494, -81.34628459999999],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.37659247714605, -81.38523247092962],
+          "orderId": "PLA1569465",
+          "pickupLocation": [19.2975609, -81.37923219999999],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:19:08.875Z",
+          "arrivingAtMerchant": "2025-04-05T00:19:07.358Z",
+          "dropoffLocation": [19.280517783219114, -81.34636525064707],
+          "orderId": "LRB1804303",
+          "pickupLocation": [19.2816494, -81.34628459999999],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": "2025-04-05T00:19:08.768Z",
+          "arrivingAtMerchant": "2025-04-05T00:19:07.356Z",
+          "dropoffLocation": [19.268859820977106, -81.37957032769918],
+          "orderId": "ALO1560167",
+          "pickupLocation": [19.282552174322156, -81.34702299206542],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3439386, -81.3739408],
+      "id": "upjuqkOSLDUPjBrQnXFy",
+      "name": "Monique Watson",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": "2025-04-04T23:48:11.553Z",
+          "arrivingAtMerchant": "2025-04-04T23:35:05.367Z",
+          "dropoffLocation": [19.346145888357615, -81.3731176033616],
+          "orderId": "SAN8970983",
+          "pickupLocation": [19.33127637659601, -81.38102673372956],
+          "status": "started"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.27154936583683, -81.30043745040894],
+          "orderId": "TAC1974633",
+          "pickupLocation": [19.327207135714108, -81.38088058703308],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.28702557567396, -81.32770143449306],
+          "orderId": "AGA1915861",
+          "pickupLocation": [19.2994081, -81.3709635],
+          "status": "accepted"
+        }
+      ]
+    },
+    {
+      "currentLocation": [19.3248941, -81.3788508],
+      "id": "zmbpaszXsdhWHwGJAzgY",
+      "name": "Andre Kentish",
+      "status": "busy",
+      "trips": [
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": "2025-04-05T00:25:08.159Z",
+          "dropoffLocation": [19.35230405200985, -81.37775111943483],
+          "orderId": "PAR1185432",
+          "pickupLocation": [19.32799501774203, -81.38174784166412],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": "2025-04-05T00:25:08.162Z",
+          "dropoffLocation": [19.346145888357615, -81.3731176033616],
+          "orderId": "PAR1014179",
+          "pickupLocation": [19.32799501774203, -81.38174784166412],
+          "status": "accepted"
+        },
+        {
+          "arrivedAtMerchant": null,
+          "arrivingAtMerchant": null,
+          "dropoffLocation": [19.357054350042674, -81.37823592871428],
+          "orderId": "PAN1137607",
+          "pickupLocation": [19.320626, -81.378166],
+          "status": "accepted"
+        }
+      ]
+    }
+  ]
+}

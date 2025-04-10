@@ -6,11 +6,11 @@ export interface VroomRequest {
 }
 
 export interface VroomOptions {
-  g: boolean;
-  c: boolean;
-  t: number;
-  x: number;
-  l: number;
+  g?: boolean;
+  c?: boolean;
+  t?: number;
+  x?: number;
+  l?: number;
 }
 
 export interface Vehicle {
