@@ -1,6 +1,25 @@
+import { Driver } from '../models/driver.model';
 import { VroomRouteResponse } from '../models/vroom-response.model';
 
 export class RouteService {
+  async considerNewTrip(drivers: Driver[], routes: VroomRouteResponse[]) {
+    const result = [];
+    for (const route of routes) {
+      const driver = drivers[route.vehicle];
+      if (driver.trips.length != route.steps.length / 2 - 1) {
+        result.push(route);
+      } else {
+        console.log(
+          'ignore',
+          route.vehicle,
+          driver.trips.length,
+          route.steps.length,
+        );
+      }
+    }
+    return result;
+  }
+
   async parse(routes: VroomRouteResponse[]) {
     return routes.map((route) => {
       return {

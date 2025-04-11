@@ -42,6 +42,6 @@ export interface VroomStepResponse {
   arrival: number;
   duration: number;
   violations: any[];
-  id?: number;
+  id: number;
   job?: number;
 }

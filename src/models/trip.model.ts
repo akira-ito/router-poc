@@ -3,3 +3,7 @@ export interface TripContext {
   maxDeliveryMinutes: number;
   maxTripsPerDriver: number;
 }
+
+export interface TripOptions {
+  ignoreSameTripsDriver?: boolean;
+}

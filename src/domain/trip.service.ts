@@ -1,9 +1,10 @@
 import config from '../config/config';
 import { Driver } from '../models/driver.model';
 import { Order } from '../models/order.model';
-import { TripContext } from '../models/trip.model';
+import { TripContext, TripOptions } from '../models/trip.model';
 import { Shipment, Step, Vehicle, VroomRequest } from '../models/vroom.model';
 import { MapService } from './map.service';
+import { RouteService } from './route.service';
 import { VroomService } from './vroom.service';
 
 export class TripService {
@@ -11,7 +12,12 @@ export class TripService {
   constructor() {
     this.vroomService = new VroomService(config.vroomUrl);
   }
-  async createTrip(context: TripContext, orders: Order[], drivers: Driver[]) {
+  async createTrip(
+    context: TripContext,
+    orders: Order[],
+    drivers: Driver[],
+    opts: TripOptions = {},
+  ) {
     console.log(
       'Creating trip with context:',
       context,
@@ -40,7 +46,7 @@ export class TripService {
           location: [order.pickupLocation[1], order.pickupLocation[0]],
         },
         delivery: {
-          id: ++orderCount,
+          id: orderCount,
           //   service: order.service,
           location: [order.dropoffLocation[1], order.dropoffLocation[0]],
         },
@@ -72,7 +78,7 @@ export class TripService {
             location: [trip.pickupLocation[1], trip.pickupLocation[0]],
           },
           delivery: {
-            id: Number(`9010${driverCount}010${++orderCount}`),
+            id: Number(`9010${driverCount}010${orderCount}`),
             location: [trip.dropoffLocation[1], trip.dropoffLocation[0]],
           },
         } as Shipment;
@@ -101,13 +107,40 @@ export class TripService {
     // }
 
     const response = await this.vroomService.createTrip(vroomRequest);
-    console.log('Vroom response:', response.summary, response.routes[1]);
+    console.log('Vroom response:', response.summary);
+
+    const routeService = new RouteService();
+    if (opts.ignoreSameTripsDriver) {
+      const newRoutes = await routeService.considerNewTrip(
+        drivers,
+        response.routes,
+      );
+      console.log(
+        'diff',
+        response.routes.length,
+        newRoutes.length,
+        newRoutes.map((r) => ({
+          vehicle: r.vehicle,
+          hasTrips: drivers[r.vehicle].trips.length,
+          newTrips: r.steps.length / 2 - 1,
+          orders: r.steps
+            // .filter((step) => step.type === 'pickup')
+            .map((step) => orders[step.id])
+            .map((order?: Order) =>
+              order ? { orderId: order.orderId } : null,
+            ),
+        })),
+      );
+
+      response.routes = newRoutes;
+    }
+    return response;
 
     // const routes = await new RouteService().parse(response.routes);
-    const mapService = new MapService();
-    for (const route of response.routes) {
-      const res = await mapService.fromSteps(route.steps);
-      console.log('Map response:', res);
-    }
+    // const mapService = new MapService();
+    // for (const route of response.routes) {
+    //   const res = await mapService.fromSteps(route.steps);
+    //   console.log('Map response:', res);
+    // }
   }
 }
