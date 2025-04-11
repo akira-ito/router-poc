@@ -1,15 +1,15 @@
+import config from '../config/config';
 import { Driver } from '../models/driver.model';
 import { Order } from '../models/order.model';
 import { TripContext } from '../models/trip.model';
 import { Shipment, Step, Vehicle, VroomRequest } from '../models/vroom.model';
+import { MapService } from './map.service';
 import { VroomService } from './vroom.service';
 
 export class TripService {
   private readonly vroomService: VroomService;
   constructor() {
-    this.vroomService = new VroomService(
-      process.env.VROOM_URL || 'http://localhost:3000',
-    );
+    this.vroomService = new VroomService(config.vroomUrl);
   }
   async createTrip(context: TripContext, orders: Order[], drivers: Driver[]) {
     console.log(
@@ -25,6 +25,7 @@ export class TripService {
       shipments: [],
       options: {
         g: true,
+        c: false,
       },
     };
 
@@ -54,7 +55,7 @@ export class TripService {
         // profile: 'driving-car',
         start: [driver.currentLocation[1], driver.currentLocation[0]],
         // capacity: [1],
-        // skills: [],
+        skills: [driverCount],
         // time_window: [0, 0],
         max_tasks: context.maxTripsPerDriver * 2,
         max_travel_time: context.maxDeliveryMinutes * 60,
@@ -65,6 +66,7 @@ export class TripService {
       const stepDeliveries = [];
       for (const trip of driver.trips) {
         const shipment = {
+          skills: [driverCount],
           pickup: {
             id: Number(`9010${driverCount}010${++orderCount}`),
             location: [trip.pickupLocation[1], trip.pickupLocation[0]],
@@ -94,61 +96,18 @@ export class TripService {
       driverCount++;
     }
 
-    for (const a of vroomRequest.vehicles) {
-      console.log(a.steps);
-    }
+    // for (const a of vroomRequest.vehicles) {
+    //   console.log(a.steps);
+    // }
 
     const response = await this.vroomService.createTrip(vroomRequest);
-    console.log('Vroom response:', response.routes[1]);
+    console.log('Vroom response:', response.summary, response.routes[1]);
+
+    // const routes = await new RouteService().parse(response.routes);
+    const mapService = new MapService();
+    for (const route of response.routes) {
+      const res = await mapService.fromSteps(route.steps);
+      console.log('Map response:', res);
+    }
   }
-}
-
-function aa() {
-  const trip = [
-    {
-      arrivedAtMerchant: '2025-04-05T00:25:10.367Z',
-      arrivingAtMerchant: '2025-04-05T00:24:09.262Z',
-      dropoffLocation: [19.386276851568756, -81.38561334460974],
-      orderId: 'MAC1223085',
-      pickupLocation: [19.295082343245973, -81.37986627976228],
-      status: 'accepted',
-    },
-    {
-      arrivedAtMerchant: null,
-      arrivingAtMerchant: null,
-      dropoffLocation: [19.385378019114825, -81.39510937035084],
-      orderId: 'BMA1223198',
-      pickupLocation: [19.29967290919337, -81.37606273668395],
-      status: 'accepted',
-    },
-    {
-      arrivedAtMerchant: null,
-      arrivingAtMerchant: null,
-      dropoffLocation: [19.39421811482212, -81.39057207852602],
-      orderId: 'SSP1241330',
-      pickupLocation: [19.3073221, -81.3837027],
-      status: 'accepted',
-    },
-    {
-      arrivedAtMerchant: null,
-      arrivingAtMerchant: null,
-      dropoffLocation: [19.389332908049195, -81.40333302319051],
-      orderId: 'CNO1353816',
-      pickupLocation: [19.298486, -81.382139],
-      status: 'accepted',
-    },
-  ];
-
-  const pickups = [];
-  const dropoffs = [];
-  for (const t of trip) {
-    const pickup = t.pickupLocation;
-
-    pickups.push([pickup[0], pickup[1]]);
-    dropoffs.push(t.dropoffLocation);
-  }
-  let b = pickups.join("'/'");
-  let c = dropoffs.join("'/'");
-  const a = `https://www.google.es/maps/dir/'${b}'/'${c}'/`;
-  console.log(a);
 }

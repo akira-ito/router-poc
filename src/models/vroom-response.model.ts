@@ -29,17 +29,19 @@ export interface VroomRouteResponse {
   duration: number;
   waiting_time: number;
   priority: number;
-  steps: {
-    type: 'start' | 'pickup' | 'delivery' | 'end';
-    location: [number, number];
-    setup: number;
-    service: number;
-    waiting_time: number;
-    arrival: number;
-    duration: number;
-    violations: any[];
-    id?: number;
-    job?: number;
-  }[];
+  steps: VroomStepResponse[];
   violations: any[];
+}
+
+export interface VroomStepResponse {
+  type: 'start' | 'pickup' | 'delivery' | 'end';
+  location: [number, number];
+  setup: number;
+  service: number;
+  waiting_time: number;
+  arrival: number;
+  duration: number;
+  violations: any[];
+  id?: number;
+  job?: number;
 }
