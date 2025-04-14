@@ -1,13 +1,6 @@
-import {
-  useQuery,
-  useMutation,
-  useQueryClient,
-  QueryClient,
-  QueryClientProvider,
-} from '@tanstack/react-query';
+import { useMutation } from '@tanstack/react-query';
 import axios from 'axios';
 import { useEffect, useState } from 'react';
-import useSWR from 'swr';
 import { Route } from './route';
 
 export function Router() {
@@ -15,9 +8,12 @@ export function Router() {
   const [vehicle, setVehicle] = useState('0');
   const mutation = useMutation({
     mutationFn: () => {
-      return axios.post('http://localhost:3002/router/from-json', {
-        ignoreSameTripsDriver: true,
-      });
+      return axios.post(
+        `${process.env.REACT_APP_ROUTER_URL}/router/from-json`,
+        {
+          ignoreSameTripsDriver: true,
+        },
+      );
     },
   });
 
