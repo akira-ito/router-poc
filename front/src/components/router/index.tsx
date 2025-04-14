@@ -21,6 +21,7 @@ export function Router() {
     (async function a() {
       const { data } = (await mutation.mutateAsync()) as any;
       setRoutes(data.routes);
+      setVehicle(data.routes[0]['vehicle']);
     })();
   }, []);
 
@@ -32,7 +33,7 @@ export function Router() {
   return (
     <div>
       <select onChange={onChangeVehicle}>
-        {routes.map((route) => {
+        {routes.map((route, index) => {
           return (
             <option value={route['vehicle']}>{route['description']}</option>
           );
@@ -41,7 +42,6 @@ export function Router() {
       {routes.map((route) => {
         return <Route route={route} vehicle={vehicle}></Route>;
       })}
-      <ul>{JSON.stringify(routes[0])}</ul>
       <button
         onClick={() => {
           mutation.mutate();
@@ -49,7 +49,6 @@ export function Router() {
       >
         Add Todo
       </button>
-      asdfddddss
     </div>
   );
 }

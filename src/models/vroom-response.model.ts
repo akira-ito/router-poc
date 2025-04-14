@@ -1,3 +1,6 @@
+import { Driver, Trip } from './driver.model';
+import { Order } from './order.model';
+
 export interface VroomResponse {
   code: number;
   summary: {
@@ -31,6 +34,8 @@ export interface VroomRouteResponse {
   priority: number;
   steps: VroomStepResponse[];
   violations: any[];
+
+  driver?: Driver;
 }
 
 export interface VroomStepResponse {
@@ -44,4 +49,7 @@ export interface VroomStepResponse {
   violations: any[];
   id: number;
   job?: number;
+
+  order?: Order;
+  trip?: Trip;
 }
