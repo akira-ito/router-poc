@@ -1,8 +1,12 @@
 import { Router } from 'express';
 import fs from 'fs';
 import path from 'path';
+import config from '../../config/config';
+import { TripPreviewUsecase } from '../../domain/trip-preview.usecase';
 import { TripService } from '../../domain/trip.service';
+import { VroomService } from '../../domain/vroom.service';
 import { TripOptions } from '../../models/trip.model';
+import { TripPreviewDto } from './dto/preview.dto';
 const router = Router();
 
 router.post('/from-json', async (req, res) => {
@@ -30,6 +34,25 @@ router.post('/from-json', async (req, res) => {
       res.json(error);
     }
   });
+});
+
+router.post('/preview', async (req, res) => {
+  try {
+    const body = req.body as TripPreviewDto;
+    const usecase = new TripPreviewUsecase(
+      new TripService(),
+      new VroomService(config.vroomUrl),
+    );
+    const trips = await usecase.createTripPreview(
+      body.context,
+      body.orders,
+      body.driver,
+    );
+    res.json(trips);
+  } catch (error) {
+    console.error('Error processing the file or making the API call:', error);
+    res.json(error);
+  }
 });
 
 export default router;

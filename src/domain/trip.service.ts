@@ -37,22 +37,22 @@ export class TripService {
 
     for (const order of orders) {
       const shipmentId = vroomRequest.shipments.length;
-      const shipment = await this.createOrderVroom(shipmentId, order);
+      const shipment = this.createOrderVroom(shipmentId, order);
       vroomRequest.shipments.push(shipment);
     }
 
     const trips = {} as any;
     for (const driver of drivers) {
       const vehicleId = vroomRequest.vehicles.length;
-      const vehicle = await this.createDriverVroom(vehicleId, driver, context);
+      const vehicle = this.createDriverVroom(vehicleId, driver, context, [
+        vehicleId,
+      ]);
 
       const stepPikups = [];
       const stepDeliveries = [];
       for (const trip of driver.trips) {
         const shipmentId = vroomRequest.shipments.length;
-        const shipment = await this.createTripVroom(shipmentId, trip, [
-          vehicleId,
-        ]);
+        const shipment = this.createTripVroom(shipmentId, trip, [vehicleId]);
         vroomRequest.shipments.push(shipment);
         trips[shipmentId] = trip;
 
@@ -133,7 +133,7 @@ export class TripService {
     }
   }
 
-  async createOrderVroom(shipmentId: number, order: Order) {
+  createOrderVroom(shipmentId: number, order: Order) {
     return {
       // amount: [order.amount],
       // skills: order.skills,
@@ -148,10 +148,11 @@ export class TripService {
     } as Shipment;
   }
 
-  async createDriverVroom(
+  createDriverVroom(
     vehicleId: number,
     driver: Driver,
     context: TripContext,
+    skills: number[] = [],
   ) {
     return {
       id: vehicleId,
@@ -159,7 +160,7 @@ export class TripService {
       // profile: 'driving-car',
       start: [driver.currentLocation[1], driver.currentLocation[0]],
       // capacity: [1],
-      skills: [vehicleId],
+      skills,
       // time_window: [0, 0],
       max_tasks: context.maxTripsPerDriver * 2,
       max_travel_time: context.maxDeliveryMinutes * 60,
@@ -167,7 +168,7 @@ export class TripService {
     } as Vehicle;
   }
 
-  async createTripVroom(shipmentId: number, trip: Trip, skills: number[]) {
+  createTripVroom(shipmentId: number, trip: Trip, skills: number[]) {
     return {
       skills,
       pickup: {
